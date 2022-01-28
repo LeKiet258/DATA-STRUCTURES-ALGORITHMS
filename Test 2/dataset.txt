@@ -1,0 +1,11 @@
+Type Weight Egg_Production
+chicken 2.2 147
+duck 2.8 245
+chicken 2.5 150
+duck 2.7 240
+duck 2.6 237
+chicken 1.9 138
+chicken 2.1 142
+duck 2.5 243
+chicken 1.8 130
+duck 2.3 227

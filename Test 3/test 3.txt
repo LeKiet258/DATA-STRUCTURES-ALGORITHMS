@@ -1,0 +1,14 @@
+Hãy cài đặt cây nhị phân tìm kiếm (BST) thực hiện các yêu cầu sau:
+
+Đọc danh sách tên có trong tập tin dataset.txt và lưu trữ vào BST.
+Đầu vào: 'name.txt' - tập tin chứa danh sách tên, mỗi tên nằm trên một dòng
+Đầu ra: BST
+Kiểm tra tên cho trước có nằm trong BST không.
+Đầu vào: 'input.txt' - danh sách tên cần kiểm tra, mỗi tên cách nhau bởi 1 khoảng trắng.
+Đầu ra: 'output.txt' - Kết quả trả ra tương ứng cho từng tên, 1 nếu tên nằm trong BST, ngược lại là 0.
+Ví dụ:
+Input: Farah Hebe Heba
+Output: 1 1 0
+Xoá tên cho trước ra khỏi BST.
+Đầu vào: 'input.txt' - danh sách giống bài 2.
+Đầu ra: 'output_ex3.txt' - in ra cây đã xoá những tên trong tập tin 'input.txt' theo thứ tự NLR.

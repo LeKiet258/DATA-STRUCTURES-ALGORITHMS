@@ -1,0 +1,65 @@
+
+Size = 3000
+merge sort,0.566
+selection sort,3.067
+bubble sort,3.429
+insertion sort,0.01
+binary insertion sort,0.102
+shaker sort,0.004
+shell sort,0.109
+heap sort,0.352
+radix sort,0.253
+counting sort,0.028
+flash sort,0.106
+
+Size = 10000
+merge sort,1.996
+selection sort,37.894
+bubble sort,35.252
+insertion sort,0.027
+binary insertion sort,0.442
+shaker sort,0.01
+shell sort,0.36
+heap sort,0.965
+radix sort,0.75
+counting sort,0.1
+flash sort,0.461
+
+Size = 30000
+merge sort,8.599
+selection sort,295.13
+bubble sort,294.131
+insertion sort,0.078
+binary insertion sort,0.839
+shaker sort,0.02
+shell sort,0.918
+heap sort,3.093
+radix sort,1.854
+counting sort,0.281
+flash sort,0.763
+
+Size = 100000
+merge sort,18.716
+selection sort,3296.77
+bubble sort,3277.47
+insertion sort,0.24
+binary insertion sort,3.241
+shaker sort,0.067
+shell sort,3.519
+heap sort,11.375
+radix sort,6.016
+counting sort,0.646
+flash sort,2.674
+
+Size = 300000
+merge sort,59.887
+selection sort,29912.8
+bubble sort,31478
+insertion sort,0.727
+binary insertion sort,11.007
+shaker sort,0.218
+shell sort,11.614
+heap sort,37.586
+radix sort,23.624
+counting sort,2.587
+flash sort,7.884

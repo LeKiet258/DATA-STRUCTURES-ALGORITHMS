@@ -1,0 +1,22 @@
+Đề: 1
+Bài 1 (5 điểm): Cài đặt tìm kiếm nhị phân sử dụng đệ quy
+
+int recursiveBinarySearch(int* a, int left, int right, int key)
+Bài 2 (2 điểm): Tính tổng các chữ số có trong số nguyên N sử dụng đệ quy
+
+int calSumDigits(int N)
+Bài 3 (3 điểm): Tìm số có 3 chữ số lớn nhất được lấy ra từ số nguyên N (>1000) sử dụng đệ quy
+
+int findMax3Digits(int N)
+-----------------------------------------------------------------------------------------------------------------------
+
+Đề: 2
+Bài 1 (5 điểm): Cài đặt tìm kiếm nhị phân sử dụng đệ quy
+
+int recursiveBinarySearch(int* a, int left, int right, int key)
+Bài 2 (2 điểm): Kiêm tra một số nguyên a (< 10) có là một chữ số thuộc số nguyên dương N sử dụng đệ quy
+
+bool checkBelong(int N, int a)
+Bài 3 (3 điểm): Tìm số có 3 chữ số nhỏ nhất được lấy ra từ số nguyên N (>1000) sử dụng đệ quy
+
+int findMin3Digits(int N)

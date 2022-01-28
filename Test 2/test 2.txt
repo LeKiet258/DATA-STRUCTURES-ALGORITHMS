@@ -1,0 +1,99 @@
+Cho tập tin 'dataset.txt' có nội dung như sau:
+
+Type Weight Egg_Production
+chicken 2.2 147
+duck 2.8 245
+chicken 2.5 150
+duck 2.7 240
+duck 2.6 237
+chicken 1.9 138
+chicken 2.1 142
+duck 2.5 243
+chicken 1.8 130
+duck 2.3 227
+
+Cho các khai báo struct sau:
+struct Poultry
+{
+    string type;
+    float weight;
+    int eggProduction;
+};
+struct NODE
+{
+    Poultry data;
+    NODE* pNext;
+};
+struct List
+{
+    NODE* pHead;
+    NODE* pTail;
+};
+
+Thực hiện các yêu cầu sau:
+(5 điểm) Đọc và lưu trữ nội dung tập tin vào danh sách liên kết đơn, nếu loại (type) là gà (chicken) thì thêm vào đầu danh sách, còn lại thì thêm vào cuối danh sách. Function: List* readData(string fileName);
+(1 điểm) Hiển thị nội dung danh sách liên kết ra màn hình Console. Function: void displayList(List* L);
+Nội dung được thể hiện trên màn hình Console như sau:
+
+Type: chicken
+Weight: 1.8
+Egg production: 130 
+------------------------
+Type: chicken
+Weight: 2.1
+Egg production: 142 
+------------------------
+Type: chicken
+Weight: 1.9
+Egg production: 138
+------------------------
+Type: chicken
+Weight: 2.5
+Egg production: 150
+------------------------
+Type: chicken
+Weight: 2.2
+Egg production: 147
+------------------------
+Type: duck
+Weight: 2.8
+Egg production: 245
+------------------------
+Type: duck
+Weight: 2.7
+Egg production: 240
+------------------------
+Type: duck
+Weight: 2.6
+Egg production: 237
+------------------------
+Type: duck
+Weight: 2.5
+Egg production: 243
+------------------------
+Type: duck
+Weight: 2.3
+Egg production: 227
+------------------------
+
+(2 điểm) Giải phóng bộ nhớ cho danh sách liên kết. Function: void deleteList(List* &L);
+(2 điểm) Chia một danh sách liên kết cho trước thành các danh sách liên kết con theo loại Gia cầm (Poultry), sau đó ghi kết quả xuống tập tin 'ouput.txt' theo format sau:
+<Number of types of Poultry>
+<Type> <Number of data lines>
+<Weight> <Egg production>
+Ví dụ:
+2
+duck 5
+2.8 245
+2.7 240
+2.6 237
+2.5 243
+2.3 227
+chicken 4
+2.8 245
+2.7 240
+2.6 237
+2.5 243
+
+Lưu ý: Danh sách liên kết con không lưu thông tin trùng.
+Function: void splitAndStore(List* L, string outputFile);
